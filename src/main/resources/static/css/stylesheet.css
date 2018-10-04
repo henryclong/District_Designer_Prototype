@@ -38,7 +38,7 @@ li {
     padding: 10px 10px;
 }
 
-li a {
+li a, ul button {
     font-family: 'Bitter', serif;
     display: block;
     color: #800000;
@@ -50,10 +50,12 @@ li a {
     -webkit-transition: background-color 0.25s; /* For Safari 3.1 to 6.0 */
     transition: background-color 0.25s;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0;
+    margin:5px;
 }
 
 
-li a:hover {
+li a:hover, ul button:hover {
     background-color: #800000;
     color:#ffffff;
 }
